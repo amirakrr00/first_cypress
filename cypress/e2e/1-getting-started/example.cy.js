@@ -1,5 +1,5 @@
 /// <refrence types="cypress"/>
-it('google search', () => {
+it.skip('google search', () => {
     cy.visit('https://example.cypress.io')
     cy.wait(2000)
     cy.contains('Querying').click({force: true})

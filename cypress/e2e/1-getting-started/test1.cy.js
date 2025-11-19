@@ -1,7 +1,7 @@
 /// <refrence types="cypress"/>
 
 describe('first example', function(){
-    it('test1', function(){
+    it.skip('test1', function(){
         cy.log("the start of test")
         cy.visit('https://www.youtube.com/')
         cy.wait(5000)

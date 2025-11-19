@@ -1,7 +1,7 @@
 /// <refrence types="cypress"/>
 
 describe('assertions test', function(){
-    it('asertion1', function(){
+    it.skip('asertion1', function(){
         cy.log("the start of test")
         cy.visit('https://virgool.io/')
         cy.log("navigated to varzesh3 site")

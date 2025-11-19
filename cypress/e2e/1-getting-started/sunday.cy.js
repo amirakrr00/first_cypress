@@ -7,7 +7,7 @@ describe('test_suite sunday', () => {
     cy.get(".go2383765152").click()
   })
 
-  it.skip("All Sofas & Sectionals approve", ()=>{
+  it("All Sofas & Sectionals approve", ()=>{
     
     cy.get("#header-menu-toggle").click()
     cy.get(".mobile-menu__list1__item__button").eq(0).click()
@@ -18,7 +18,7 @@ describe('test_suite sunday', () => {
     cy.wait(1000)
 
   }) 
-  it.skip("  All Beds approve", ()=>{
+  it("  All Beds approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -30,7 +30,7 @@ describe('test_suite sunday', () => {
     cy.wait(1000)
 
   }) 
-  it.skip("  All Tables approve", ()=>{
+  it("  All Tables approve", ()=>{
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
     cy.get(".mobile-menu__list1__item__button").eq(0).click()
@@ -42,7 +42,7 @@ describe('test_suite sunday', () => {
 
   }) 
 
-it.skip("  All seating approve", ()=>{
+it("  All seating approve", ()=>{
    
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -54,7 +54,7 @@ it.skip("  All seating approve", ()=>{
     cy.wait(1000)
 
   }) 
-  it.skip("  All Storage approve", ()=>{
+  it("  All Storage approve", ()=>{
 
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -67,7 +67,7 @@ it.skip("  All seating approve", ()=>{
 
   }) 
 
-  it.skip("  All Outdoor approve", ()=>{
+  it("  All Outdoor approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -80,7 +80,7 @@ it.skip("  All seating approve", ()=>{
 
   }) 
 
-  it.skip("  All Accessories approve", ()=>{
+  it("  All Accessories approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -93,7 +93,7 @@ it.skip("  All seating approve", ()=>{
 
   }) 
 
-  it.skip("  All living rooms approve", ()=>{
+  it("  All living rooms approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -106,7 +106,7 @@ it.skip("  All seating approve", ()=>{
 
   }) 
 
-  it.skip("  All bedroom rooms approve", ()=>{
+  it("  All bedroom rooms approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -119,7 +119,7 @@ it.skip("  All seating approve", ()=>{
 
   }) 
 
-  it.skip("  All dining rooms approve", ()=>{
+  it("  All dining rooms approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -132,7 +132,7 @@ it.skip("  All seating approve", ()=>{
 
   }) 
 
-  it.skip("  All outdoor rooms approve", ()=>{
+  it("  All outdoor rooms approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -145,7 +145,7 @@ it.skip("  All seating approve", ()=>{
 
   }) 
 
-  it.skip("  All home office rooms approve", ()=>{
+  it("  All home office rooms approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -158,7 +158,7 @@ it.skip("  All seating approve", ()=>{
 
   }) 
 
-  it.skip("  All entryway rooms approve", ()=>{
+  it("  All entryway rooms approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -171,7 +171,7 @@ it.skip("  All seating approve", ()=>{
 
   }) 
 
-it.skip("  About us approve", ()=>{
+it("  About us approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -183,7 +183,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" the journal approve", ()=>{
+  it(" the journal approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -195,7 +195,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" trade program approve", ()=>{
+  it(" trade program approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -207,7 +207,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" Showrooms approve", ()=>{
+  it(" Showrooms approve", ()=>{
     
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -219,7 +219,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" Reviews approve", ()=>{
+  it(" Reviews approve", ()=>{
 
     cy.get(".header__logo__link").click()
     cy.get("#header-menu-toggle").click()
@@ -231,7 +231,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" about us homepage approve", ()=>{
+  it(" about us homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(0).click()
     cy.get('#shopify-section-about-us').first().should("be.visible")
@@ -240,7 +240,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" contact us homepage approve", ()=>{
+  it(" contact us homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(1).click()
     cy.get('#shopify-section-contact').first().should("be.visible")
@@ -249,7 +249,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" shipping & returns homepage approve", ()=>{
+  it(" shipping & returns homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(2).click()
     cy.get('#shopify-section-shipping-and-returns').first().should("be.visible")
@@ -258,7 +258,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" showrooms homepage approve", ()=>{
+  it(" showrooms homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(3).click()
     cy.get('#shopify-section-showrooms').first().should("be.visible")
@@ -267,7 +267,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" FAQ approve", ()=>{
+  it(" FAQ approve", ()=>{
     
     cy.get(".footer-menu__link").eq(4).click()
     cy.get('#shopify-section-faq').first().should("be.visible")
@@ -276,7 +276,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" trade program homepage approve", ()=>{
+  it(" trade program homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(5).click()
     cy.get('#shopify-section-trade').first().should("be.visible")
@@ -285,7 +285,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" the journal homepage approve", ()=>{
+  it(" the journal homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(6).click()
     cy.get('#shopify-section-the-journal').first().should("be.visible")
@@ -294,7 +294,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" the eGift cards homepage approve", ()=>{
+  it(" the eGift cards homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(7).click()
     cy.get('#shopify-section-product').first().should("be.visible")
@@ -303,7 +303,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" the customer reviews homepage approve", ()=>{
+  it(" the customer reviews homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(8).click()
     cy.get('#shopify-section-sundays-customer-reviews').first().should("be.visible")
@@ -312,7 +312,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" the Terms of service homepage approve", ()=>{
+  it(" the Terms of service homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(9).click()
     cy.get('.shopify-policy__container').first().should("be.visible")
@@ -321,7 +321,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" the Shop pay installments homepage approve", ()=>{
+  it(" the Shop pay installments homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(10).click()
     cy.get('#shopify-section-bnpl-faq').first().should("be.visible")
@@ -330,7 +330,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" the careers homepage approve", ()=>{
+  it(" the careers homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(11).click()
     cy.get('#shopify-section-careers').first().should("be.visible")
@@ -339,7 +339,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip(" the 5 year warranty homepage approve", ()=>{
+  it(" the 5 year warranty homepage approve", ()=>{
     
     cy.get(".footer-menu__link").eq(12).click()
     cy.get('#shopify-section-warranty').first().should("be.visible")
@@ -348,7 +348,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip("click best sellers", ()=>{
+  it("click best sellers", ()=>{
    
     cy.contains('Best Sellers').click({force:true})
     cy.get('.collection__title__contents').should("contain","Best Sellers")
@@ -357,7 +357,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip("click new arrivals", ()=>{
+  it("click new arrivals", ()=>{
    
     cy.contains('New Arrivals').click({force:true})
     cy.get('.collection__title__contents').should("contain","New Arrivals")
@@ -366,7 +366,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip("click trade program", ()=>{
+  it("click trade program", ()=>{
    
     cy.contains('Trade Program').click({force:true})
     cy.get('.trade-title').should("contain","Trade Program")
@@ -375,7 +375,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip("click holiday gifts", ()=>{
+  it("click holiday gifts", ()=>{
    
     cy.contains('Holiday Gifts').click({force:true})
     cy.get('#shopify-section-color-swatches').first().should("be.visible")
@@ -384,7 +384,7 @@ it.skip("  About us approve", ()=>{
 
   }) 
 
-  it.skip("click special prices", ()=>{
+  it("click special prices", ()=>{
    
     cy.contains('Special Prices').click({force:true})
     cy.get('#shopify-section-minicart').first().should("be.visible")
@@ -392,7 +392,7 @@ it.skip("  About us approve", ()=>{
     cy.wait(1000)
   }) 
 
-  it.skip("search a chair", ()=>{
+  it("search a chair", ()=>{
    
     cy.get('button[title="search"]').click({force:true})
     cy.get('#search-input').type('chair')

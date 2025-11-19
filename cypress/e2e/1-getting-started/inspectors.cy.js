@@ -5,7 +5,7 @@ describe('Actions', () => {
     cy.visit('https://example.cypress.io/commands/actions')
   })
 
-  it("first inspector", ()=>{
+  it.skip("first inspector", ()=>{
     cy.get("input[type=email]").type("amir is here")
     cy.get("input[type=email]").then((element)=> {
         cy.log("text from input : "+element.val())

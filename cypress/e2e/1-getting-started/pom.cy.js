@@ -7,7 +7,7 @@ describe('all tests',function(){
         cy.wait(2000)
     })
 
-    it('POM example ', () => {
+    it.skip('POM example ', () => {
     
     login.enterUsername('Admin')
 
